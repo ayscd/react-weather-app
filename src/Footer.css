@@ -1,0 +1,15 @@
+.git-profile, .git-project, .contact-link {
+     color: rgb(81, 75, 35);
+}
+
+.git-profile:hover, .git-project:hover, .contact-link:hover {
+      color: rgba(29, 29, 27, 0.4);
+}
+
+.git-profile:visited, .git-project:visited, .contact-link:visited {
+        color: rgba(27, 29, 27, 0.4);
+}
+
+.git-profile:active, .git-project:active, .contact-link:active {
+        color: rgba(29, 29, 27, 0.4);
+}

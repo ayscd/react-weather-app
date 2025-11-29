@@ -1,20 +1,26 @@
 import React from 'react';
 import Weather from "./Weather";
+import MainInfo from "./MainInfo";
+import Footer from "./Footer";
 
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Weather App</h1>
-        <Weather />
-      </header>
-      <footer>
-        <a href='https://github.com/ayscd/react-weather-app' target='_blank' rel="noreferrer">Open-source code</a>, by <a href='www.linkedin.com/in/ayeskaasc' target='_blank' rel="noreferrer">Ayeska</a> from <a href='https://www.instagram.com/asc.arquitetura/' target='_blank' rel='noreferrer' >ASCENÇÃO ARQUITETURA</a>
-      </footer>
+      <div className="container app-box">
+        <header>
+          <Weather />
+        </header>
+        <hr />
+        <main>
+          <MainInfo />
+        </main>
+        <hr />
+        <footer>
+          <Footer />
+        </footer>
+      </div>
     </div>
   );
-}
-
-export default App;
+};

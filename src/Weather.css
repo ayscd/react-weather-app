@@ -1,0 +1,22 @@
+form {
+    padding: 0 16px 0 16px;
+}
+
+.search-input, .search-button {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(81, 75, 35, 0.4);
+    font-size: 14px;
+}
+
+
+.search-button {
+    background-color: rgba(212, 212, 216, 0.4);
+}
+
+.search-button:hover {
+    color: rgb(247, 248, 246);
+    background-color: rgba(34, 12, 16);
+    box-shadow: 5px 5px 10px rgba(34, 12, 16, 0.2);
+}
