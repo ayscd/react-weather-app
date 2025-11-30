@@ -39,17 +39,3 @@ li {
     margin-top: 5px;
 }
 
-.real-temp {
-    font-size: 70px;
-    font-weight: 500px;
-    line-height: 80px;
-    margin-left: 20px;
-    margin-right: 5px;
-}
-
-.temp-unit {
-    margin-top: 10px;
-    font-size: 25px;
-    font-weight: 400px;
-    color: rgb(29, 29, 27);
-}
