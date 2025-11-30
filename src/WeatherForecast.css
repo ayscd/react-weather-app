@@ -1,0 +1,25 @@
+.WeatherForecast {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.forecast-day, .forecast-temps {
+    color: grey;
+    font-size: 14px;
+}
+
+.forecast-day {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.forecast-temps {
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.forecast-max-temp, .forecast-min-temp {
+    padding: 0 5px;
+}
