@@ -2,6 +2,14 @@ form {
     padding: 0 16px 0 16px;
 }
 
+header {
+    padding: 10px 0px 10px 0px;
+}
+
+hr {
+    color: rgba(212, 212, 216, 0.4);
+}
+
 .search-input, .search-button {
     padding: 10px;
     border-radius: 10px;

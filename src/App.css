@@ -4,10 +4,6 @@
     background-color: rgba(212, 212, 216, 0.4);
 }
 
-.App header {
-    padding: 10px 0px 10px 0px;
-}
-
 .App .app-box {
     display: block;
     background-color: rgb(247, 248, 246);
@@ -33,5 +29,5 @@ p, strong {
 }
 
 hr {
-    color: rgba(212, 212, 216, 0.4);
+    color: rgba(124, 124, 124, 0.8);
 }
